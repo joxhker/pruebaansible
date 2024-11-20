@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: vcenter.local
   remote_user: root
   roles:
     - /etc/ansible/roles/ntp-config

@@ -9,6 +9,6 @@
   hosts: vcenter.local
   roles:
    #- hostname
-   #- firewalld
+   - firewalld
    #- ntp-config
    - motd
